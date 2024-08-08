@@ -1,0 +1,9 @@
+.form_search {
+    margin: 0 auto; 
+    max-width: 400px; 
+    padding: 1em;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1); 
+    display: flex;
+    align-items: center; 
+  }

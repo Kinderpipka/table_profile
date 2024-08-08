@@ -1,0 +1,67 @@
+.table_container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.resizable_table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.resizable_table th,
+.resizable_table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  min-width: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.resizable_table th {
+  background-color: #034403;
+  cursor: col-resize;
+  resize: horizontal;
+}
+
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.modal_content {
+  background-color: #2f4f4f; 
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.modal_content h2 {
+  margin-top: 0;
+  color: #90ee90; 
+}
+
+
+.modal_content button {
+  background-color: #556b2f; 
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.modal_content button:hover {
+  background-color: #6b8e23; 
+}
